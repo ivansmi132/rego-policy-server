@@ -1,0 +1,12 @@
+services:
+  - name: policy-server
+    url: http://localhost:3001
+
+bundles:
+  my_bundle:
+    service: policy-server
+    resource: "/opa-test"
+    polling:
+      min_delay_seconds: 10
+      max_delay_seconds: 20
+      

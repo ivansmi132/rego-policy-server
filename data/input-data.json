@@ -1,0 +1,10 @@
+{
+  "input": {
+    "method": "GET",
+    "path": [
+      "cars",
+      "id789-932"
+    ],
+    "user": "alice"
+  }
+}
